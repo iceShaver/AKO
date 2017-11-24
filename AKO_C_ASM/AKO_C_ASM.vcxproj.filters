@@ -18,9 +18,6 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main1.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <MASM Include="z5_1_srednia_harm.asm">
@@ -32,19 +29,10 @@
     <MASM Include="z5_3_array_sum_SSE.asm">
       <Filter>Source Files</Filter>
     </MASM>
-    <MASM Include="swap_array_pairs.asm">
-      <Filter>Source Files</Filter>
-    </MASM>
     <MASM Include="max3.asm">
       <Filter>Source Files</Filter>
     </MASM>
-    <MASM Include="max4.asm">
-      <Filter>Source Files</Filter>
-    </MASM>
     <MASM Include="multiply3_stdcall.asm">
-      <Filter>Source Files</Filter>
-    </MASM>
-    <MASM Include="neg.asm">
       <Filter>Source Files</Filter>
     </MASM>
     <MASM Include="square_sum.asm">
@@ -53,10 +41,19 @@
     <MASM Include="sum3_stdcall.asm">
       <Filter>Source Files</Filter>
     </MASM>
-    <MASM Include="dec_ptr_ptr.asm">
+    <MASM Include="inc.asm">
       <Filter>Source Files</Filter>
     </MASM>
-    <MASM Include="inc.asm">
+    <MASM Include="z4_1_max4.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="z4_2_neg.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="z4_3_dec_ptr_ptr.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="z4_4_swap_array_pairs.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>

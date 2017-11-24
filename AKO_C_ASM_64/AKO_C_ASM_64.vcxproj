@@ -120,7 +120,7 @@
   <ItemGroup>
     <MASM Include="find64_max.asm" />
     <MASM Include="square_sum64.asm" />
-    <MASM Include="sum7_64.asm" />
+    <MASM Include="z4_5_sum7_64.asm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

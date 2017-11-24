@@ -1,4 +1,5 @@
 ; float series_sum(float x, unsigned n);
+; returns e^x
 .686
 .model flat
 public _series_sum

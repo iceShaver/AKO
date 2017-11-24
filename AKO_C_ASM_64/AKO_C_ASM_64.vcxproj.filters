@@ -23,10 +23,10 @@
     <MASM Include="find64_max.asm">
       <Filter>Source Files</Filter>
     </MASM>
-    <MASM Include="sum7_64.asm">
+    <MASM Include="square_sum64.asm">
       <Filter>Source Files</Filter>
     </MASM>
-    <MASM Include="square_sum64.asm">
+    <MASM Include="z4_5_sum7_64.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>

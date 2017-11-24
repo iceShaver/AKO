@@ -1,11 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
+
+int max3(int a, int b, int c);
+int max4(int a, int b, int c, int d);
+void inc(int * a);
+void neg(int * a);
+void dec_ptr_ptr(int ** a);
+void swap_array_pairs(int arr[], int n);
+int __stdcall _multiply3(int a, int b, int c);
+int __stdcall _sum3(int a, int b, int c);
+unsigned square_sum(unsigned a, unsigned b);
+void bubble_sort(int arr[], const int n)
+{
+	for (int i = n; i > 1; --i)
+	{
+		swap_array_pairs(arr, i);
+	}
+}
+//----------------------------------------------------------------------------
 extern float srednia_harm(float*arr, unsigned n);
 extern float series_sum(float x);
 extern float array_sum_SSE(char * a_src, char * b_src, char * dest, unsigned count);
-void z5_1_srednia_harm();
-void z5_2_series_sum();
-void z5_3_array_sum_SSE();
 
 void z5_1_srednia_harm()
 {
@@ -19,14 +34,12 @@ void z5_1_srednia_harm()
 	printf("%f\n", srednia_harm(arr, n));
 	free(arr);
 }
-
 void z5_2_series_sum()
 {
 	float x;
 	scanf_s("%f", &x);
 	printf("%f\n", series_sum(x));
 }
-
 void z5_3_array_sum_SSE()
 {
 	char a_array[] = { -128, -127, -126, -125, -124, -123, -122, -121, 120, 121, 122, 123, 124, 125, 126, 127 };

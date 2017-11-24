@@ -116,18 +116,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.c" />
-    <ClCompile Include="main1.c" />
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="dec_ptr_ptr.asm" />
+    <MASM Include="z4_3_dec_ptr_ptr.asm" />
     <MASM Include="inc.asm" />
     <MASM Include="max3.asm" />
-    <MASM Include="max4.asm" />
+    <MASM Include="z4_1_max4.asm" />
     <MASM Include="multiply3_stdcall.asm" />
-    <MASM Include="neg.asm" />
+    <MASM Include="z4_2_neg.asm" />
     <MASM Include="square_sum.asm" />
     <MASM Include="sum3_stdcall.asm" />
-    <MASM Include="swap_array_pairs.asm" />
+    <MASM Include="z4_4_swap_array_pairs.asm" />
     <MASM Include="z5_1_srednia_harm.asm" />
     <MASM Include="z5_2_series_sum.asm" />
     <MASM Include="z5_3_array_sum_SSE.asm" />
