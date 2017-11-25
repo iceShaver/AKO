@@ -115,9 +115,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AVX2_example_main.cpp" />
     <ClCompile Include="main.c" />
   </ItemGroup>
   <ItemGroup>
+    <MASM Include="AVX2_example.asm" />
     <MASM Include="find64_max.asm" />
     <MASM Include="square_sum64.asm" />
     <MASM Include="z4_5_sum7_64.asm" />

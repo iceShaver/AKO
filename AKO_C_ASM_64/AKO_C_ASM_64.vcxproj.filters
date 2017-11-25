@@ -18,6 +18,9 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AVX2_example_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <MASM Include="find64_max.asm">
@@ -27,6 +30,9 @@
       <Filter>Source Files</Filter>
     </MASM>
     <MASM Include="z4_5_sum7_64.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="AVX2_example.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>

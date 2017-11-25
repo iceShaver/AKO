@@ -50,10 +50,22 @@
     <MASM Include="z4_2_neg.asm">
       <Filter>Source Files</Filter>
     </MASM>
+    <MASM Include="z4_4_swap_array_pairs.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="SSE_example.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
     <MASM Include="z4_3_dec_ptr_ptr.asm">
       <Filter>Source Files</Filter>
     </MASM>
-    <MASM Include="z4_4_swap_array_pairs.asm">
+    <MASM Include="z5_5_float_arr_odd_inc_even_dec_4.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="z5_4_int2float_array_2.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="z5_6_add_3_arrays.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>
