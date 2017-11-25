@@ -26,7 +26,6 @@ int main()
 
 
 	printf("Calculating without AVX2 \n");
-
 	auto start_timestamp = high_resolution_clock::now();
 	for (int i = 0; i < LOOP_COUNT; ++i)
 		for (int k = 0; k < ARRAY_SIZE; ++k) 
