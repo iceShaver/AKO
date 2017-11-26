@@ -16,7 +16,7 @@ int main()
 {
 	float scalar = 2.0;
 
-	printf("Initialing\n");
+	printf("Initializing\n");
 	for (int i = 0; i < ARRAY_SIZE; ++i)
 	{
 		fa[i] = (float)i + 0.1f;
