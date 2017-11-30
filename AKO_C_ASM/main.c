@@ -113,14 +113,50 @@ void z5_6_add_3_arrays()
 	printf("%f %f %f %f\n", results[0], results[1], results[2], results[3]);
 }
 
+extern float srednia_kwadratowa(float * arr, unsigned size);
+extern float szereg_przemienny(unsigned n);
+extern float szybki_max(float * tab1, float * tab2, float * tabWynik, unsigned n); //n % 4 == 0
+
+void srednia_kwadratowa_main()
+{
+	float arr[] = { 2,2,5,7 };
+	printf("%f\n", srednia_kwadratowa(arr, 4));
+}
+
+void szereg_przemienny_main()
+{
+	printf("%f\n", szereg_przemienny(250));
+}
+void szybki_max_main()
+{
+	float arr1[] = { 8, 6, 2, 4, 5, 7, 9, 5 };
+	float arr2[] = { 5, 8, 2, 4, 8, 5, 1, 7 };
+	float wynik[8];
+	szybki_max(arr1, arr2,wynik, 8);
+	for (int i = 0; i < 8; ++i)
+	{
+		printf("%f\n", wynik[i]);
+	}
+
+
+}
+
+
 int main(int argc, char* argv[])
 {
 	//z5_1_srednia_harm();
 	//z5_2_series_sum();
 	//SSE_instructions_example();
-	z5_3_array_sum_SSE();
+	//	z5_3_array_sum_SSE();
 	//z5_4_int2float_array();
 	//z5_5_float_arr_odd_inc_even_dec_4();
 	//z5_6_add_3_arrays();
+	srednia_kwadratowa_main();
+	putchar('\n');
+	putchar('\n');
+	szereg_przemienny_main();
+	putchar('\n');
+	putchar('\n');
+	szybki_max_main();
 	return 0;
 }
