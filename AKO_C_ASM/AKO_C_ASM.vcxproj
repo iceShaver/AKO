@@ -141,6 +141,9 @@
     <MASM Include="z5_5_float_arr_odd_inc_even_dec_4.asm" />
     <MASM Include="z5_6_add_3_arrays.asm" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="lab5_polecenia.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />

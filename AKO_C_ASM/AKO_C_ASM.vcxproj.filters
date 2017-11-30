@@ -78,4 +78,7 @@
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="lab5_polecenia.txt" />
+  </ItemGroup>
 </Project>
