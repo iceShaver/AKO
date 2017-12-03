@@ -121,9 +121,12 @@
     <ClCompile Include="main.c" />
   </ItemGroup>
   <ItemGroup>
+    <MASM Include="srednia_kwadratowa.asm" />
     <MASM Include="SSE_example.asm" />
     <MASM Include="inc.asm" />
     <MASM Include="max3.asm" />
+    <MASM Include="szereg_przemienny.asm" />
+    <MASM Include="szybki_max.asm" />
     <MASM Include="z4_1_max4.asm" />
     <MASM Include="multiply3_stdcall.asm" />
     <MASM Include="z4_2_neg.asm" />
@@ -137,6 +140,9 @@
     <MASM Include="z5_4_int2float_array_2.asm" />
     <MASM Include="z5_5_float_arr_odd_inc_even_dec_4.asm" />
     <MASM Include="z5_6_add_3_arrays.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="lab5_polecenia.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

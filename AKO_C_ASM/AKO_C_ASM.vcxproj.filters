@@ -68,5 +68,17 @@
     <MASM Include="z5_6_add_3_arrays.asm">
       <Filter>Source Files</Filter>
     </MASM>
+    <MASM Include="srednia_kwadratowa.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="szereg_przemienny.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="szybki_max.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="lab5_polecenia.txt" />
   </ItemGroup>
 </Project>
