@@ -115,10 +115,10 @@ void z5_6_add_3_arrays()
 
 int main(int argc, char* argv[])
 {
-	//z5_1_srednia_harm();
+	z5_1_srednia_harm();
 	//z5_2_series_sum();
 	//SSE_instructions_example();
-	z5_3_array_sum_SSE();
+	//z5_3_array_sum_SSE();
 	//z5_4_int2float_array();
 	//z5_5_float_arr_odd_inc_even_dec_4();
 	//z5_6_add_3_arrays();
