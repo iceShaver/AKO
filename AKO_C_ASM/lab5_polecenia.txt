@@ -3,4 +3,4 @@
 =sqrt((a_1^2 + a_2^2 + a_n^2) / n)
 2. szereg float szereg()
 =1 - 1/2 + 1/4 - 1/8 + 1/16 + ...
-3. szybki max
+3. szybki max	

@@ -3,7 +3,7 @@
 .model flat
 public _szereg_przemienny
 .data
-two dword 1.0
+two		dword 2.0
 one		dword 1.0
 .code
 _szereg_przemienny proc
@@ -12,31 +12,28 @@ _szereg_przemienny proc
 	push	ecx
 	push	edx
 	; --------------------------------------------------------
-	fld1		; denominator
+	finit
 	fldz		; sum
+	fld1		; denominator
 	mov		ecx, [ebp+8]
-	mov		edx, 0 ; counter
+	mov		edx, 0		; counter for parity test
 	test	ecx, ecx
 	jz		finish
-	lp1:		; st(0) = sum
-		fld1	; st(0) = 1 st(1)=sum
-		fdiv	st(0),st(2)	; st(0) = elem st1 = sum st2=denom
-		fxch
+	lp1:		; st0=denominator, st1=sum
+		fld1	; st0=element, st1=denominator, st2=sum 
+		fdiv	st(0), st(1)
 		bt		edx, 0
-		jnc		dodaj
-		fsub	st(0), st(1)
+		jc		minus
+		faddp	st(2), st(0)
 		jmp		continue
-		dodaj:
-		fadd	st(0),st(1)
-		continue:	;sum elem, denom
-		fxch	; elem sum denom
-		fstp	st(0) ; sum denom
-		fxch	;denom, sum
+		minus:
+		fsubp	st(2), st(0)
+		continue:	; st0=denominator, st1=sum
 		fmul	two
-	
 		inc		edx
 		loop lp1
 	finish:
+	fxch
 	; --------------------------------------------------------
 	pop		edx
 	pop		ecx

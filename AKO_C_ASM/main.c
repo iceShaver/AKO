@@ -125,7 +125,7 @@ void srednia_kwadratowa_main()
 
 void szereg_przemienny_main()
 {
-	printf("%f\n", szereg_przemienny(250));
+	printf("%f\n", szereg_przemienny(21));
 }
 void szybki_max_main()
 {
