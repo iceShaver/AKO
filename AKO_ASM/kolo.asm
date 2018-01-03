@@ -1,11 +1,21 @@
 .686
 .model flat
-public _main
+extern	_ExitProcess@4	:	PROC
+extern	__write			:	PROC
 .data
-x dword 0.25
-y dword -0.5
+		byte	0A0H
+		byte	0FFH
+		byte	043H
+d_658h	byte	000H
+		byte	020H
+		byte	07FH
+		byte	0C3H
+data_out dword ?
 .code
-_main proc
-	nop
-_main endp
-end
+_main PROC	
+	fld		dword ptr d_658h
+	fst		dword ptr data_out
+	push	0
+	call	_ExitProcess@4
+_main ENDP
+END

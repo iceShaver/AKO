@@ -93,7 +93,16 @@
     <MASM Include="iteracja.asm">
       <Filter>Source Files</Filter>
     </MASM>
-    <MASM Include="kolo.asm">
+    <MASM Include="pole_kola.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="avg_wd.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="NWD.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="liczba_procesorow.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>

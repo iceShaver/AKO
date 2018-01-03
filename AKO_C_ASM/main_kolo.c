@@ -1,6 +1,18 @@
 #include <stdio.h>
+#include <stdlib.h>
 #define RESET 1
 #define GET_NEXT 0
+extern int roznica(int * odjemna, int ** odjemnik);
+extern int * kopia_tablicy(int tabl[], unsigned int n);
+extern char * komunikat(char * tekst);
+extern int * szukaj_elem_min(int tablica[], int n);
+extern void szyfruj(char * tekst);
+extern unsigned int kwadrat(unsigned int a);
+extern unsigned char iteracja(unsigned char a);
+extern void pole_kola(float*pr);
+extern float avg_wd(int n, void *tablica, void *wagi);
+extern unsigned NWD(unsigned a, unsigned b);
+extern unsigned liczba_procesorow(void);
 void z1() {
 	int a, b, *wsk, wynik;
 	wsk = &b;
@@ -53,8 +65,29 @@ void z6() {
 }
 void z7() {
 	unsigned char w = iteracja(32);
-	printf("%u", w);
+	printf("%u\n", w);
+}
+void z15() {
+	float k;
+	scanf_s("%f", &k);
+	pole_kola(&k);
+	printf("%f\n", k);
+}
+
+void z17() {
+	float tablica[] = { 5, 6, 7, 8 };
+	float wagi[] = { 1, 2, 3, 4 };
+	printf("%f\n", avg_wd(4, tablica, wagi));
+
+
+}
+void z18() {
+	printf("%u\n", NWD(42, 56));
+}
+void z20() {
+	printf("%u\n", liczba_procesorow());
 }
 int main() {
-	z7();
+	z20();
+	return 0;
 }

@@ -1,3 +1,4 @@
+; unsigned char iteracja(unsigned char a);
 .686
 .model flat
 public _iteracja
@@ -18,6 +19,5 @@ _iteracja PROC
 	rcr		al, 1
 	pop		ebp
 	ret	
-	setae
 _iteracja ENDP
 END

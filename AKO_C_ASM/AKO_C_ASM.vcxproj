@@ -121,11 +121,14 @@
     <ClCompile Include="main_kolo.c" />
   </ItemGroup>
   <ItemGroup>
+    <MASM Include="avg_wd.asm" />
     <MASM Include="iteracja.asm" />
-    <MASM Include="kolo.asm" />
     <MASM Include="komunikat.asm" />
     <MASM Include="kopia_tablicy.asm" />
     <MASM Include="kwadrat.asm" />
+    <MASM Include="liczba_procesorow.asm" />
+    <MASM Include="NWD.asm" />
+    <MASM Include="pole_kola.asm" />
     <MASM Include="roznica.asm" />
     <MASM Include="srednia_kwadratowa.asm" />
     <MASM Include="SSE_example.asm" />

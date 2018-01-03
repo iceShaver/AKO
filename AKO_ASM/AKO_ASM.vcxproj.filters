@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="kolo.asm">
+    <MASM Include="z14_float2double.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>
