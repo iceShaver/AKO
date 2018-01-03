@@ -15,11 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <MASM Include="z5_1_srednia_harm.asm">
       <Filter>Source Files</Filter>
     </MASM>
@@ -77,8 +72,37 @@
     <MASM Include="szybki_max.asm">
       <Filter>Source Files</Filter>
     </MASM>
+    <MASM Include="roznica.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="kopia_tablicy.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="komunikat.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="szukaj_elem_min.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="szyfruj.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="kwadrat.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="iteracja.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="kolo.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
   </ItemGroup>
   <ItemGroup>
     <Text Include="lab5_polecenia.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main_kolo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

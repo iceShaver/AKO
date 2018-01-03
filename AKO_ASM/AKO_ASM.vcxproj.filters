@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="fun.asm">
+    <MASM Include="kolo.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>

@@ -118,15 +118,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.c" />
+    <ClCompile Include="main_kolo.c" />
   </ItemGroup>
   <ItemGroup>
+    <MASM Include="iteracja.asm" />
+    <MASM Include="kolo.asm" />
+    <MASM Include="komunikat.asm" />
+    <MASM Include="kopia_tablicy.asm" />
+    <MASM Include="kwadrat.asm" />
+    <MASM Include="roznica.asm" />
     <MASM Include="srednia_kwadratowa.asm" />
     <MASM Include="SSE_example.asm" />
     <MASM Include="inc.asm" />
     <MASM Include="max3.asm" />
     <MASM Include="szereg_przemienny.asm" />
+    <MASM Include="szukaj_elem_min.asm" />
     <MASM Include="szybki_max.asm" />
+    <MASM Include="szyfruj.asm" />
     <MASM Include="z4_1_max4.asm" />
     <MASM Include="multiply3_stdcall.asm" />
     <MASM Include="z4_2_neg.asm" />
