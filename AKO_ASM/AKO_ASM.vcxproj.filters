@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="z14_float2double.asm">
+    <MASM Include="kodowanieInstrukcji.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>
